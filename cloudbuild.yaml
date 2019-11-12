@@ -6,5 +6,5 @@ artifacts:
     location: 'gs://thebookie'
     paths: ["/workspace/Locanda_target/Locanda.war"]
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['copy']
+  args: ['cp']
   paths: ["/workspace/Locanda_target/Locanda.war"]
