@@ -7,4 +7,4 @@ artifacts:
     paths: ["/workspace/Locanda_target/Locanda.war"]
 - name: 'gcr.io/cloud-builders/mvn'
   args: ['cp']
-  paths: ["/workspace/Locanda_target/Locanda.war"]
+  paths: ["/workspace/Locanda_target/Locanda.war /opt/apache-tomcat-7.0.96/webapps"]
