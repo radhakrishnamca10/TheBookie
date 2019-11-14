@@ -5,6 +5,7 @@ artifacts:
   objects:
     location: 'gs://thebookie'
     paths: ["/workspace/Locanda_target/Locanda.war"]
+steps:    
 - name: 'gcr.io/cloud-builders/gcloud'
   args: ['app', 'deploy', 'target/Locanda_target/WEB-INF/appengine-web.xml']
 
