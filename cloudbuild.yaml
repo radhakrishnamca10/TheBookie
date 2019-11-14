@@ -5,5 +5,3 @@ artifacts:
   objects:
     location: 'gs://thebookie'
     paths: ["/workspace/Locanda_target/Locanda.war"]
-  args: ['scp']
-    paths: ["/workspace/Locanda_target/Locanda.war /opt/apache-tomcat-7.0.96/webapps"]
