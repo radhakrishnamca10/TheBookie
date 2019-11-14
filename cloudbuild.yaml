@@ -5,3 +5,5 @@ artifacts:
   objects:
     location: 'gs://thebookie'
     paths: ["/workspace/Locanda_target/Locanda.war"]
+- name: 'gcr.io/bldc-integration-with-gcp/gcloud-maven'
+  args: ['mvn', 'appengine:deploy']
