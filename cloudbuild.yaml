@@ -1,6 +1,6 @@
 steps:
 - name: 'gcr.io/cloud-builders/mvn'
-  args: ['clean package']
+  args: ['package']
 artifacts:
   objects:
     location: 'gs://thebookie'
